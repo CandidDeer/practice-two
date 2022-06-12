@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/normalize.css">
+        <link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css">
+        <link rel="icon" type="image/svg" href="assets/favicon.svg">
+        <script src="https://kit.fontawesome.com/96d6c66c3c.js" crossorigin="anonymous"></script>
+    </head>
+    <body id="top">
+        <div class="overlay">
+            <header>
+                <h1>Hello World</h1>
+                <nav>
+                    <a href="#top">Home</a>
+                    <a href="http://www.outlook.com">Contact us</a>
+                    <a href="http://www.google.com">About us</a>
+                </nav>
+            </header>
+            <main>
+                <article>
+                    <h2>Spring is on its way</h2>
+                    <div class="article">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec leo tempus, dapibus risus id, porta nisl. In pellentesque massa at metus ullamcorper ultricies. Curabitur non nisi lectus. Integer vitae nunc ac risus mollis feugiat non ut est. Nullam auctor sollicitudin diam ut dignissim. Sed tristique semper justo. Pellentesque vehicula consequat tempus. Nam a leo finibus, dapibus lectus ac, porttitor mi. Fusce id porttitor turpis. Cras ac est sed mi varius bibendum eget ac metus. Curabitur finibus neque venenatis mauris pulvinar malesuada vel et arcu. In fringilla turpis ac purus maximus, vitae vehicula nulla faucibus. Integer non blandit sem.</p>
+                        <p>Aliquam lacinia, metus sed laoreet facilisis, purus lacus hendrerit metus, at iaculis diam velit nec risus. Donec nibh lorem, finibus eu dolor a, lacinia accumsan tortor. Vestibulum placerat dolor a arcu imperdiet condimentum. Suspendisse potenti. Integer accumsan augue ac laoreet pretium. Aenean pretium sit amet risus et finibus. Donec egestas egestas blandit. Curabitur vel quam risus. Nullam vitae consectetur tellus. Duis egestas eros purus, a pharetra ante tincidunt quis. Integer gravida sem a laoreet condimentum. Suspendisse potenti. Vivamus ullamcorper sem mattis dignissim varius.</p>
+                        <p>Ut sed auctor nulla, vel tincidunt elit. Etiam pretium congue odio, at tempor diam ultricies ut. Nam efficitur, lorem ac aliquam dignissim, risus urna suscipit velit, ac lobortis turpis est sit amet tortor. Sed cursus volutpat placerat. Donec vestibulum urna ut sollicitudin faucibus. Cras sed imperdiet urna. Duis tempor eleifend sollicitudin. In dapibus fringilla volutpat. Praesent tincidunt a erat eget consectetur. Aliquam erat volutpat.</p>
+                    </div>
+                </article>
+                <details>
+                    <summary>Open me to receive more information!</summary>
+                    <form>
+                        <fieldset>
+                            <legend>Sign up for our newsletter!</legend>
+                                <div class="content">
+
+                                    <label for="theme">Select a theme for your newsletter:</label><br>
+                                    <select name="theme" id="theme">
+                                        <optgroup label="Fauna">
+                                            <option value="bunnies" selected>Bunnies</option>
+                                            <option value="unicorns">Unicorns</option>
+                                            <option value="kittens">Kittens</option>
+                                        </optgroup>
+                                        <optgroup label="Flora">
+                                            <option value="trees">Trees</option>
+                                            <option value="clouds">Clouds</option>
+                                            <option value="mountains">Mountains</option>
+                                        </optgroup>
+                                    </select><br>
+                                
+                                    <label for="color">Select your favorite color:</label><br>
+                                    <input type="color" name="color" id="color" value="#E5A9A9"><br>
+
+                                    <label for="email">Type in your email address:</label><br>
+                                    <input type="email" name="email" id="email" placeholder="me@mailbox.com" title="10 characters minimum" size="25" pattern=".{10,}" required><br>
+
+                                    <button type="submit" autofocus onclick="thanks()">Submit</button>
+                                    <script>
+                                        function thanks() {
+                                        alert("Thank you for subscribing to our newsletter!");
+                                        }
+                                    </script>
+
+                                    <button type="reset">Reset</button>
+
+                                </div>
+                        </fieldset>
+                    </form>
+                </details>
+            </main>
+            <footer>
+                <p>
+                    &copy; Lisa Thamer <a href="mailto:X_file@gmx.at?subject=Hello%20Sunshine!&body=Hello!" aria-label="email"><i class="fa-regular fa-comment-dots"></i></a> &#128007;
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

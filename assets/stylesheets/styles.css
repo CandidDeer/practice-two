@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "anders";
+    src: url(../fonts/anders.woff2);
+    src: url(../fonts/anders.woff);
+}
+
+body {
+    background-image: url(../background.jpg);
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.overlay {
+    background-color: rgba(247, 236, 236, 0.95);
+    margin: 5%;
+    position: relative;
+}
+
+h1 {
+    color: darkgoldenrod;
+    font-family: "anders", serif;
+    font-size: 48px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+nav a {
+    border-right: 2px solid darkgoldenrod;
+    padding: 0 10px;
+}
+
+nav a:last-child {
+    border: none;
+}
+
+h2 {
+    color: darkgoldenrod;
+    font-family: "anders", serif;
+    font-size: 36px;
+}
+
+article, details {
+    margin: 0 40px;
+}
+
+summary {
+    color: darkgoldenrod;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: dotted white;
+}
+
+legend {
+    color: #e2aa55;
+}
+
+.content {
+    margin: 20px 0;
+}
+
+select, input {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-right: 5px;
+}
+
+footer {
+    color: darkgoldenrod;
+    font-size: 14px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+a:link {
+    color: #2d3e50;
+}
+
+a:hover {
+    color: #e8a851;
+}
+
+a:visited {
+    color: #f29ca9;
+}
